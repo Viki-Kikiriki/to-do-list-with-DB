@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
 //Connecting to the Mongoose server
-mongoose.connect("mongodb://localhost/todolistDB", {useNewUrlParser: true, useUnifiedTopology: true});
+mongoose.connect("mongodb+srv://admin-viktoria:17121994bV@cluster0.lie8k.mongodb.net/todolistDB", {useNewUrlParser: true, useUnifiedTopology: true});
 
 
 //Creating the Item schema, model and the items themselves
