@@ -1,0 +1,2 @@
+A future version of To-Do List 2.0 will have a button for creating different types of lists.
+Those lists will then show up in a dropdown menu and the user will be able to pick whichever list they want to check out. 
